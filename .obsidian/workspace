@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "479e98a671500e23",
+    "type": "split",
+    "children": [
+      {
+        "id": "106ac36087d85954",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "中国近代史/第二次鸦片战争.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac9e67e9fad2e3ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "4334b1488adb07d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "116fe34ef900b713",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fea6d817647f5744",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6bbe5463e1d27031",
+    "type": "split",
+    "children": [
+      {
+        "id": "42e900976651e705",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3079cefd44fdc68a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "中国近代史/第二次鸦片战争.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5e6f55eb15326739",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "中国近代史/第二次鸦片战争.md",
+    "2020-11-27-emacs基本快捷键.md",
+    "2020-11-27-emacs基本功能.md",
+    "2020-11-28-星期六-update-all-packages-via-pip.md",
+    "太平天国运动.md",
+    "中国近代史/main.md",
+    "中国近代史/《北京条约》.md",
+    "index.md"
+  ]
+}
