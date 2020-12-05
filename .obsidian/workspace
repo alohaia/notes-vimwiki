@@ -4,15 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "106ac36087d85954",
+        "id": "269ce0cf70d474fa",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "中国近代史/第二次鸦片战争.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -53,7 +50,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 192.0036334991455,
+    "collapsed": true
   },
   "right": {
     "id": "6bbe5463e1d27031",
@@ -69,7 +67,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "中国近代史/第二次鸦片战争.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,16 +88,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
-    "中国近代史/第二次鸦片战争.md",
-    "2020-11-27-emacs基本快捷键.md",
-    "2020-11-27-emacs基本功能.md",
-    "2020-11-28-星期六-update-all-packages-via-pip.md",
-    "太平天国运动.md",
-    "中国近代史/main.md",
-    "中国近代史/《北京条约》.md",
-    "index.md"
+    "核酸.md",
+    "脱氧核糖核苷酸.md",
+    "脱氧核糖.md",
+    "MariaDB.md",
+    "diary/开发我的_vimwiki.md",
+    "生物大分子.md",
+    "细胞化学与生物学.md",
+    "核糖.md",
+    "西安事变.md",
+    "“公行”制度.md"
   ]
 }
