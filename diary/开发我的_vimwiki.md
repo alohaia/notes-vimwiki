@@ -14,3 +14,4 @@
 
 - NeoVim Lua API
 - ~~[MySQL](../MySQL.md)~~ [MariaDB](../MariaDB.md) + Lua( + C&C++)
+- 只占用一个缓冲区

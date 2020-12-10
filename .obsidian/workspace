@@ -4,13 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "269ce0cf70d474fa",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "graph",
-          "state": {}
-        }
+        "id": "489368e214cdecd2",
+        "type": "split",
+        "children": [
+          {
+            "id": "269ce0cf70d474fa",
+            "type": "leaf",
+            "dimension": 63.557993730407524,
+            "active": true,
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "c163b4486917f2f2",
+            "type": "leaf",
+            "dimension": 36.442006269592476,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "一次文献.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -80,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "tag",
-              "state": {}
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -92,15 +116,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "一次文献.md",
+    "文献.md",
+    "diary/开发我的_vimwiki.md",
+    "Embedding Lua in C++.md",
+    "MySQL.md",
+    "DNA_损伤及修复.md",
     "核酸.md",
     "脱氧核糖核苷酸.md",
     "脱氧核糖.md",
-    "MariaDB.md",
-    "diary/开发我的_vimwiki.md",
-    "生物大分子.md",
-    "细胞化学与生物学.md",
-    "核糖.md",
-    "西安事变.md",
-    "“公行”制度.md"
+    "MariaDB.md"
   ]
 }
