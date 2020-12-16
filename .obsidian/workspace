@@ -4,35 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "489368e214cdecd2",
-        "type": "split",
-        "children": [
-          {
-            "id": "269ce0cf70d474fa",
-            "type": "leaf",
-            "dimension": 63.557993730407524,
-            "active": true,
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "c163b4486917f2f2",
-            "type": "leaf",
-            "dimension": 36.442006269592476,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "一次文献.md",
-                "mode": "preview"
-              }
-            }
+        "id": "c163b4486917f2f2",
+        "type": "leaf",
+        "dimension": 50,
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "source"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "b78b4251c3a38a7e"
+      },
+      {
+        "id": "45b6ed28715b4762",
+        "type": "leaf",
+        "dimension": 50,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "index.md",
+            "mode": "preview"
+          }
+        },
+        "group": "b78b4251c3a38a7e"
       }
     ],
     "direction": "vertical"
@@ -59,12 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
+                "query": ""
               }
             }
           }
@@ -89,11 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "file": "index.md"
               }
             }
           },
@@ -102,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "tag",
-              "state": {
-                "sortOrder": "frequency"
-              }
+              "state": {}
             }
           }
         ],
@@ -116,15 +101,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "index.md",
+    "MariaDB.md",
+    "RNA聚合酶.md",
+    "RNA依赖的RNA聚合酶.md",
+    "原核生物的转录.md",
+    "DNA依赖的RNA聚合酶.md",
+    "核糖核苷酸.md",
+    "RNA依赖的RNA合成.md",
     "一次文献.md",
-    "文献.md",
-    "diary/开发我的_vimwiki.md",
-    "Embedding Lua in C++.md",
-    "MySQL.md",
-    "DNA_损伤及修复.md",
-    "核酸.md",
-    "脱氧核糖核苷酸.md",
-    "脱氧核糖.md",
-    "MariaDB.md"
+    "文献.md"
   ]
 }
