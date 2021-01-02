@@ -2,14 +2,14 @@
 
 <!-- TOC Marked -->
 
-* [Headers needed](#headers-needed)
-* [Tell Lua to execute a command and get the result in cpp](#tell-lua-to-execute-a-command-and-get-the-result-in-cpp)
-* [Use Lua libs](#use-lua-libs)
-* [Execute Lua file](#execute-lua-file)
-* [Use Lua script to provide datas](#use-lua-script-to-provide-datas)
-* [Use Lua table](#use-lua-table)
-* [Get Lua function in CPP program](#get-lua-function-in-cpp-program)
-* [Define Lua function in CPP program and call it in Lua](#define-lua-function-in-cpp-program-and-call-it-in-lua)
+* [Headers needed](Embedding_Lua_in_C++.md#headers-needed)
+* [Tell Lua to execute a command and get the result in cpp](Embedding_Lua_in_C++.md#tell-lua-to-execute-a-command-and-get-the-result-in-cpp)
+* [Use Lua libs](Embedding_Lua_in_C++.md#use-lua-libs)
+* [Execute Lua file](Embedding_Lua_in_C++.md#execute-lua-file)
+* [Use Lua script to provide datas](Embedding_Lua_in_C++.md#use-lua-script-to-provide-datas)
+* [Use Lua table](Embedding_Lua_in_C++.md#use-lua-table)
+* [Get Lua function in CPP program](Embedding_Lua_in_C++.md#get-lua-function-in-cpp-program)
+* [Define Lua function in CPP program and call it in Lua](Embedding_Lua_in_C++.md#define-lua-function-in-cpp-program-and-call-it-in-lua)
 
 <!-- /TOC -->
 

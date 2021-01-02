@@ -269,11 +269,13 @@ random(n)       --> [1, n]  integer
 random(l, u)    --> [l, u]  integer
 ```
 
+### Table
+
 ## Exercises
 
 - [Eight-Queen Puzzle](Eight-Queen_Puzzle.md)
 
 ## Lua extension
 
-- [Use Lua with C++](Embedding Lua in C++.md)
+- [Use Lua with C++](Embedding_Lua_in_C++.md)
 

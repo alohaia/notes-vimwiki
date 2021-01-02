@@ -4,31 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c163b4486917f2f2",
-        "type": "leaf",
-        "dimension": 50,
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "index.md",
-            "mode": "source"
+        "id": "e87c0505308c23b9",
+        "type": "split",
+        "children": [
+          {
+            "id": "16d576b6ada13269",
+            "type": "leaf",
+            "dimension": 20.94240837696335,
+            "active": true,
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "动作电位.md",
+                "mode": "preview"
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "db2ec5e98ed94574",
+            "type": "leaf",
+            "dimension": 79.05759162303664,
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        },
-        "group": "b78b4251c3a38a7e"
-      },
-      {
-        "id": "45b6ed28715b4762",
-        "type": "leaf",
-        "dimension": 50,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "index.md",
-            "mode": "preview"
-          }
-        },
-        "group": "b78b4251c3a38a7e"
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -55,11 +59,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -80,7 +90,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md"
+                "file": "动作电位.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -89,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "tag",
-              "state": {}
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -101,15 +118,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "index.md",
-    "MariaDB.md",
-    "RNA聚合酶.md",
-    "RNA依赖的RNA聚合酶.md",
-    "原核生物的转录.md",
-    "DNA依赖的RNA聚合酶.md",
-    "核糖核苷酸.md",
-    "RNA依赖的RNA合成.md",
-    "一次文献.md",
-    "文献.md"
+    "动作电位.md",
+    "静息电位.md",
+    "跨膜电位.md",
+    "单纯扩散.md",
+    "细胞膜.md",
+    "月周期.md",
+    "内环境.md",
+    "概述.md",
+    "生理学.md",
+    "生殖.md"
   ]
 }

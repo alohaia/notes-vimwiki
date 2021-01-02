@@ -26,17 +26,19 @@
 3. 为何 Accutane 会导致畸形？鉴于他母亲服用 Accutane 的时间段，你预期会在 Bryce 身上观察到什么缺陷？
 4. 什么因素会影响观察到的由 Accutane 引起的缺陷程度？
 5. 为什么在批准将其用于人类之前，并未在动物研究中发现 Accutane 的致畸作用？
-6. Accutane 如何预防痤疮？
+6. [Accutane 如何预防痤疮？](Accutane_如何预防痤疮？.md)
 
 ## Quotations
 
-## Standardized patient interview
+<details><summary>
+Standardized patient interview
+</summary>
 
 The patient, Deena Scott, is a 15 year old female with acne. She received a supply of
 Accutane (13-cis-retinoic acid) from her boyfriend for whom it had been prescribed and tried it
 out to see if it would help clear her skin. <mark>Starting on January 14, she took 40 mg bid for 4
 weeks</mark> at which point she ran out of the pills. Her skin has shown marked improvement, and
-Deena is now visiting the nurse practitioner (NP，见习护士), Ms. Stendahl, at her pediatrician（儿科医生）’s office,
+Deena is now visiting the nurse practitioner (NP，见习护士）, Ms. Stendahl, at her pediatrician（儿科医生）’s office,
 <mark>one week after running out of pills</mark>, in an effort to get a proper prescription.
 
 The NP is interviewing Deena. She finds out that Deena has been taking Accutane and
@@ -169,8 +171,11 @@ pediatrician.
     that for you.
 > - Deena: OK. It would be better if you explain that.
 
-## Part 1
+</details>
 
+<details><summary>
+Part 1
+</summary>
 Ms. Stendahl was alarmed when Deena’s pregnancy test came back positive the next morning.
 She quickly placed a call to a colleague who specialized in birth defects, Dr. Yale O’Grott, and
 asked if he would be willing to see Deena right away. When he agreed, she called Deena to
@@ -183,13 +188,15 @@ After some encouragement, Deena made an appointment to see Dr. O’Grott on Febr
 After a few questions about her use of the Accutane and her past medical history, Dr. O’Grott
 explained his concern about the possible birth defects that might be associated with the use of a
 teratogenic substance like this. To help determine what the actual risks might be, he asked her
-to try hard to remember when her last menstrual period (LMP, 最近经期) had been.
+to try hard to remember when her last menstrual period (LMP, 最近经期） had been.
 After thinking a while, she finally calculated that it had been on December 21.
 Based upon her LMP, he explained that the period of exposure（暴露期） was day 10 through
 day 37 after conception（孕后 10-37 天）, not counting drug elimination time.
+</details>
 
-## Part 2
-
+<details><summary>
+Part 2
+</summary>
 Dr. O’Grott explained that the use of Accutane during this period（即前所述“暴露期”） could have very serious
 consequences on the baby’s development since this was a time when many of the baby’s
 structures were being formed. He asked her to think about whether she might want to give birth
@@ -252,3 +259,4 @@ evaluation. Deena realized that her baby was going to have serious problems, but
 what they would be like. A cranial CT scan was abnormal on September 5 with a prominent cisterna
 magna suggesting a Dandy-Walker variant.1 Deena didn’t understand how Bryce could have such severe
 problems when nothing had shown up in the ultrasound scans, even when the fetus was 20 weeks old.
+</details>

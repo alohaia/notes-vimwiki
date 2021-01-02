@@ -1,4 +1,4 @@
-# Linux系统备份及恢复
+# Linux 系统备份及恢复
 
 通用备份方案
 --------------------------
@@ -9,13 +9,13 @@
 # 备份文件储存分区的挂载
 sudo mount /dev/sdb3 /mnt
 sudo tar --use-compress-program=pigz -cvpf /mnt/system-backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/mnt --exclude=/sys --exclude=/run/media /
-# 额外排除/home
+# 额外排除 /home
 sudo tar --use-compress-program=pigz -cvpf /mnt/system-backup.tgz --exclude=/proc --exclude=/lost+found --exclude=/mnt --exclude=/sys --exclude=/run/media --exclude=/home /
 ```
 
 ### 恢复
 
-**进入LiveCD**
+**进入 LiveCD**
 ```bash
 # 联网
 wifi-menu
@@ -80,7 +80,7 @@ xfsdump -f <backup_file|device> <filesystem> [-s <file|dir>]
 xfsdump -f <backup_file|device> -L <session label> -M <media label> <filesystem> [-s <file|dir>]
 # -e 排除被设置了“no dump”标签（通过 chattr 命令设置）的文件
 xfsdump -e -f <backup_file> -L <session label> -M <media label> <filesystem> [-s <file|dir>]
-# -z 限制文件大小(kb)，大于指定大小的文件不进行备份
+# -z 限制文件大小 (kb)，大于指定大小的文件不进行备份
 xfsdump -z -f <backup_file|device> -L <session label> -M <media label> <filesystem> [-s <file|dir>]
 ```
 
@@ -136,7 +136,14 @@ xfsrestore -f <back_inc2> <dest>
 
 ### 其他操作
 
+#### 查看备份信息
+
 ```bash
-# 查看备份信息
 xfsdump -I
 ```
+
+#### 删除所有备份
+
+1. 【可选】删除所有备份
+2. 删除 `/var/lib/xfsdump/inventory` 下以文件系统 uuid 命名的文件。
+
