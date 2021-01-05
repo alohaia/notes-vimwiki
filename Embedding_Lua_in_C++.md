@@ -26,7 +26,7 @@ extern "C"
 
 **Notice** the spelling of `lauxlib.h`.
 
-## Tell Lua to execute a command and get the result in cpp
+## Tell Lua to execute a command and get the result in CPP
 
 ```cpp
 // g++ lua_cpp.cpp -o lua_cpp.exe -llua

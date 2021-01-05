@@ -4,35 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "e87c0505308c23b9",
-        "type": "split",
-        "children": [
-          {
-            "id": "16d576b6ada13269",
-            "type": "leaf",
-            "dimension": 20.94240837696335,
-            "active": true,
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "动作电位.md",
-                "mode": "preview"
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "db2ec5e98ed94574",
-            "type": "leaf",
-            "dimension": 79.05759162303664,
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
+        "id": "16d576b6ada13269",
+        "type": "leaf",
+        "dimension": 72.32532751091703,
+        "active": true,
+        "pinned": true,
+        "state": {
+          "type": "graph",
+          "state": {},
+          "pinned": true
+        }
+      },
+      {
+        "id": "a1e28ce334805b27",
+        "type": "leaf",
+        "dimension": 27.674672489082973,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "终池.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动作电位.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,8 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -118,15 +111,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "终池.md",
+    "肌组织.md",
+    "横纹肌.md",
+    "明带.md",
+    "Z线.md",
     "动作电位.md",
+    "接头前膜.md",
+    "刺激.md",
     "静息电位.md",
-    "跨膜电位.md",
-    "单纯扩散.md",
-    "细胞膜.md",
-    "月周期.md",
-    "内环境.md",
-    "概述.md",
-    "生理学.md",
-    "生殖.md"
+    "跨膜电位.md"
   ]
 }
