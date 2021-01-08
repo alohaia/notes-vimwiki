@@ -7,7 +7,6 @@
         "id": "16d576b6ada13269",
         "type": "leaf",
         "dimension": 72.32532751091703,
-        "active": true,
         "pinned": true,
         "state": {
           "type": "graph",
@@ -19,11 +18,12 @@
         "id": "a1e28ce334805b27",
         "type": "leaf",
         "dimension": 27.674672489082973,
+        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "终池.md",
-            "mode": "preview"
+            "file": "跨膜电流.md",
+            "mode": "source"
           }
         }
       }
@@ -83,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "跨膜电流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +99,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           }
@@ -111,15 +112,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "终池.md",
-    "肌组织.md",
-    "横纹肌.md",
-    "明带.md",
-    "Z线.md",
-    "动作电位.md",
-    "接头前膜.md",
-    "刺激.md",
-    "静息电位.md",
-    "跨膜电位.md"
+    "跨膜电流.md",
+    "跨膜电位.md",
+    "跨莫电流.md",
+    "膜电流.md",
+    "细胞的基本功能.md",
+    "MariaDB.md",
+    "MySQL.md",
+    "index.md",
+    "囊泡.md",
+    "心室舒张期.md"
   ]
 }

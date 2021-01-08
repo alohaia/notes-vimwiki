@@ -1,5 +1,5 @@
 # Z盘
 
-即[Z线](Z线.md)
+Same: [Z线](Z线.md)
 
 See Also: [横纹肌](横纹肌.md)
