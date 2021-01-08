@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "跨膜电流.md",
+            "file": "兴奋性.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "有效不应期",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 192.0036334991455,
-    "collapsed": true
+    "width": 192.0036334991455
   },
   "right": {
     "id": "6bbe5463e1d27031",
@@ -83,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "跨膜电流.md",
+                "file": "兴奋性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,15 +111,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "跨膜电流.md",
-    "跨膜电位.md",
-    "跨莫电流.md",
-    "膜电流.md",
-    "细胞的基本功能.md",
+    "兴奋性.md",
+    "有效不应期.md",
     "MariaDB.md",
-    "MySQL.md",
-    "index.md",
-    "囊泡.md",
-    "心室舒张期.md"
+    "激活.md",
+    "舒张末期容积.md",
+    "正后电位.md",
+    "心脏.md",
+    "舒张期.md",
+    "README.md",
+    "肥大细胞.md"
   ]
 }
