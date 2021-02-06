@@ -1,4 +1,4 @@
-# 03-星期四-1038 install lua mysql
+# Install lua mysql
 
 - lua-mysql
 

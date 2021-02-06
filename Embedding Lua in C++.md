@@ -2,14 +2,14 @@
 
 <!-- TOC Marked -->
 
-* [Headers needed](Embedding_Lua_in_C++.md#headers-needed)
-* [Tell Lua to execute a command and get the result in cpp](Embedding_Lua_in_C++.md#tell-lua-to-execute-a-command-and-get-the-result-in-cpp)
-* [Use Lua libs](Embedding_Lua_in_C++.md#use-lua-libs)
-* [Execute Lua file](Embedding_Lua_in_C++.md#execute-lua-file)
-* [Use Lua script to provide datas](Embedding_Lua_in_C++.md#use-lua-script-to-provide-datas)
-* [Use Lua table](Embedding_Lua_in_C++.md#use-lua-table)
-* [Get Lua function in CPP program](Embedding_Lua_in_C++.md#get-lua-function-in-cpp-program)
-* [Define Lua function in CPP program and call it in Lua](Embedding_Lua_in_C++.md#define-lua-function-in-cpp-program-and-call-it-in-lua)
+* [Headers needed](#headers-needed)
+* [Tell Lua to execute a command and get the result in CPP](#tell-lua-to-execute-a-command-and-get-the-result-in-cpp)
+* [Use Lua libs](#use-lua-libs)
+* [Execute Lua file](#execute-lua-file)
+* [Use Lua script to provide datas](#use-lua-script-to-provide-datas)
+* [Use Lua table](#use-lua-table)
+* [Get Lua function in CPP program](#get-lua-function-in-cpp-program)
+* [Define Lua function in CPP program and call it in Lua](#define-lua-function-in-cpp-program-and-call-it-in-lua)
 
 <!-- /TOC -->
 
@@ -125,7 +125,7 @@ int main()
 
 ## Use Lua script to provide datas
 
-In settingd.lua
+In settings.lua
 ```lua
 PlayerTitle = "Saber"
 PlayerName = "Aloha"
@@ -188,7 +188,7 @@ if (CheckLua(L, luaL_dofile(L, "./settings.lua")))
 3. `lua_pushstring` push a string on the top;
 4. `lua_gettable`
     1. pop the value of the top of the stack;
-    2. use it to **value** in the table which is now under the top value;
+    2. use it to index **value** in the table which is now under the top value;
     3. push the **value** on the top of the stack;
 5. (optional) `lua_pop` pop the value on the top.
 

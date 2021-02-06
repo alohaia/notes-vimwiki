@@ -18,3 +18,4 @@
 - [03 星期四 1038_install_lua_mysql](03- 星期四 -1038_install_lua_mysql.md)
 - [19- 星期六 -2248_vim 内置补全](19- 星期六 -2248_vim 内置补全.md)
 - [npm 和 yarn 换源](npm_和_yarn_换源.md)
+- [音量控制](音量控制.md)

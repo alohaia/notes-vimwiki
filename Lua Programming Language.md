@@ -1,5 +1,24 @@
 # Lua Programming Language
 
+## 注释
+
+```lua
+-- comment
+
+--[[
+comment
+]]
+
+--[==[
+comment
+]==]
+
+--[===[
+comment
+]===]
+
+```
+
 ## 命令行技巧
 
 1. `-e` 在命令行测试简单代码
@@ -207,7 +226,7 @@ function cond2int(x)
 end
 ```
 
-#### <font color='green'>舍入</font>
+#### 舍入
 
 > 对于大的整数并，直接计算`x+0.5`的下限可能会得到预期外的结果。<br>
 
@@ -241,7 +260,7 @@ function round_unbiased (x)
 end
 ```
 
-#### 数学库`math`
+#### 数学库
 
 ```lua
 math.sin(math.pi / 2)   --> 1.0
@@ -269,13 +288,91 @@ random(n)       --> [1, n]  integer
 random(l, u)    --> [l, u]  integer
 ```
 
+### String
+
+字符串长度
+> <mark style="background-color:#dd4444;">！</mark> 事实上是**字节**数而非字符数
+```lua
+a = "hello"
+print(#a)               --> 5
+print(#"good bye™")     --> 8
+-- "你好" 占 6 个字节
+print(#"你好")          --> 6
+```
+
+Lua 中数字和字符串在算术运算中可互相转换
+```lua
+"result is " .. 3   --> result is 3
+"10" + 1            --> 11
+```
+
+但在比较运算中不会自动转换
+
+```lua
+2 < 15      --> true
+"2" < "15"  --> false
+```
+
+```lua
+-- explicitly
+tonumber(" -3 ")        --> -3
+tonumber(" 10ed  ")     --> 100000.0
+tonumber("0x1.3p-4")    --> 0.07421875
+-- 进制
+tonumber("100101", 2)   --> 37
+tonumber("fff", 16)     --> 4095
+tonumber("-ZZ", 36)     --> -1295
+```
+
+长字符串
+```lua
+[[
+This
+is
+a
+long
+string
+.
+]]
+
+[==[
+a = b[c[1]]
+]==]
+
+print("hello \z
+world")             --> hello world
+```
+
+#### 字符串库
+
+```lua
+-- string.len() 等价于 #
+string.len("hello")     --> 5
+string.len("你好")      --> 6
+
+string.rep("a", 5)      --> aaaaa
+
+string.reverse("Time and tide waits for no man.")   --> .nam on rof stiaw edit dna emiT
+string.upper  ("Time and tide waits for no man.")   --> TIME AND TIDE WAITS FOR NO MAN.
+string.lower  ("Time and tide waits for no man.")   --> time and tide waits for no man.
+```
+
+子字符串
+```lua
+s = "123456789"
+string.sub(s, 2, -1)    --> 23456789
+string.sub(s, -1, -1)   --> 9
+```
+ASCII 
+
+
 ### Table
 
 ## Exercises
 
-- [Eight-Queen Puzzle](Eight-Queen_Puzzle.md)
+- [Eight-Queen Puzzle](Eight-Queen Puzzle.md)
 
 ## Lua extension
 
-- [Use Lua with C++](Embedding_Lua_in_C++.md)
+- [Use Lua with C++](Embedding Lua in C++.md)
 

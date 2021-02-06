@@ -26,7 +26,7 @@
 
 ## MariaDB 的安装
 
-[03-星期四-1038_install_lua_mysql](03-星期四-1038_install_lua_mysql.md)
+[install lua mysql](install lua mysql.md)
 
 ## 常用操作
 

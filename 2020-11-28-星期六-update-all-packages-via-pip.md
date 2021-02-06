@@ -9,5 +9,5 @@ pip list --outdated
 1. Update them
 
 ```bask
-pip install <package> --update
+pip install <package> --upgrade
 ```
